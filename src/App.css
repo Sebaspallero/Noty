@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  text-decoration: none;
+  list-style: none;
+  font-family: 'poppins';
+  transition: .2s linear;
+  scroll-behavior: smooth;
+  scroll-padding-top:4rem;
+  margin: 0;
+}
+
+:root {
+  --red-clr: #D62828;
+  --blue-clr: #003049;
+  --light-blue-clr: #94c2db;
+  --orange-clr: #F77F00;
+  --yellow-clr: #FCBF49;
+  --light-clr:#EAE2B7;
+  --boxShadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+/* ---------------------------------GRID------------------------------- */
+
+.appGrid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}

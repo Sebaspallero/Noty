@@ -1,0 +1,11 @@
+.appTitle{
+    text-align: center;
+    color: var(--blue-clr);
+    font-size: 2em;
+  }
+
+  .gridThree{
+    grid-area: 2 / 2 / 4 / 5;
+    background-color: var(--red-clr);
+    height: 100%;
+  }
